@@ -1,5 +1,5 @@
 import express from "express";
-import * as pgp from "./node_modules/pg-promise/typescript/pg-promise";
+import * as pgp from "pg-promise";
 
 const app = express();
 const port = 3000;
